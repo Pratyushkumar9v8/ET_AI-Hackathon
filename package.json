@@ -1,11 +1,11 @@
 {
-  "name": "sentinel-ai-platform",
+  "name": "sentinel-ai-frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev frontend",
-    "build": "cd frontend && next build",
-    "start": "next start frontend",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
