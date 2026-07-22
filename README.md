@@ -118,9 +118,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 #### 2. Setup & Start Frontend
 ```bash
-cd frontend
-
-# Install dependencies
+# Install dependencies (run in the root directory)
 npm install --legacy-peer-deps
 
 # Start Next.js Dev Server
@@ -170,4 +168,3 @@ SentinelAI includes a built-in simulation engine. You can trigger synthetic mult
 ## 📄 License & Attribution
 
 Built for the **ET AI Hackathon 2026 Problem Statement #7**.  
-Designed & Engineered by Team Antigravity.
